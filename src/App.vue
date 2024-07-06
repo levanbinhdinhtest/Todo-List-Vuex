@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <header></header>
+  <main>
+    <app-modal/>
+  </main>
+  <footer></footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppModal from './components/AppModal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppModal
   }
 }
 </script>
@@ -23,4 +26,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
