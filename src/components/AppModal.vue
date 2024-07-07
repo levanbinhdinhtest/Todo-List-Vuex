@@ -3,9 +3,7 @@
         <h1>TODOLIST</h1>
         <form-add/>
         <todo-list/>
-        <!-- <button class="btn btn-danger" @click="deleteChecked(tickedItems)">
-            Remove Checked
-        </button> -->
+
   </div>
 </template>
 
